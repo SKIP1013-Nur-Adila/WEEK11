@@ -1,0 +1,40 @@
+package exercise;
+import java.util.Scanner;
+public class empat {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner input=new Scanner(System.in);
+		
+	
+		
+		double[][] sales= new double[3][3];
+		double sum=0;
+		
+		//User input the value for specific row and column
+		System.out.println("Enter sales per line");
+		for(int i=0; i<sales.length; i++)
+			for (int j=0; j<sales.length; j++) {
+			sales[i][j]=input.nextDouble();
+			
+			sum = sum + sales[i][j];
+			}
+		
+		
+		
+		//
+		System.out.println("");
+		for(int i=0; i<sales.length; i++)
+			for (int j=0; j<sales.length; j++) {
+		System.out.print("row = " + i);
+		System.out.println(" column = " + j);
+			System.out.println("Value for sales is " + sales[i][j]);
+			}
+		
+		System.out.println("The sum of sales is : " + sum);
+		double avg = sum / sales.length;
+		System.out.println("The average of sales is : " + avg);
+	}
+
+}
