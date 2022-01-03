@@ -1,0 +1,31 @@
+Enter sales per line
+5
+4
+3
+2
+1
+5
+4
+3
+2
+
+row = 0 column = 0
+Value for sales is 5.0
+row = 0 column = 1
+Value for sales is 4.0
+row = 0 column = 2
+Value for sales is 3.0
+row = 1 column = 0
+Value for sales is 2.0
+row = 1 column = 1
+Value for sales is 1.0
+row = 1 column = 2
+Value for sales is 5.0
+row = 2 column = 0
+Value for sales is 4.0
+row = 2 column = 1
+Value for sales is 3.0
+row = 2 column = 2
+Value for sales is 2.0
+The sum of sales is : 29.0
+The average of sales is : 9.666666666666666
